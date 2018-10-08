@@ -1,5 +1,12 @@
 Current List of Vox Commands available. 
 
+Command Usage: /vox <string> will broadcast the sound to the server globally.
+Console will also accept vox commands as input.
+Please note that currently, you must be an administrator to use /vox by default.
+
+
+######
+
 yankee
 yards
 year
