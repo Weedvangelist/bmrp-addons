@@ -5,6 +5,9 @@ if SERVER then
 
 	function CanBroadCast(player)
 		if (VOX_ADMINONLY:GetInt() == 1) then
+				player:ChatPrint("VOX Announcer Loaded Successfully.")
+				player:ChatPrint("/vox <string> will broadcast the sound! console command also works!")
+				player:ChatPrint("/voxlist or /voxhelp will direct you to how to use this vox announcer!")
 			return (player:IsAdmin())
 		end
 		return true
@@ -17,9 +20,6 @@ if SERVER then
 	hook.Add( "PlayerInitialSpawn", "VOXBroadcast", function(player)
 		timer.Simple( 5, function()
 			if (!player:IsValid()) then return end
-			player:ChatPrint("Thanks to downloading VOX Announcer! - Black Tea Za rebel1324")
-			player:ChatPrint("/vox <string> will broadcast the sound! console command also works!")
-			player:ChatPrint("/voxlist or /voxhelp will direct you to how to use this vox announcer!")
 			if (VOX_ADMINONLY:GetInt() == 1) then
 				player:ChatPrint("Only admins can VOX Broadcast in this server.")
 			else
