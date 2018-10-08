@@ -79,7 +79,7 @@ else
 		label:SetText("  VOX HELP - Loading will take few second.")
 		local html = dframe:Add("DHTML")
 		html:Dock(FILL)
-		html:OpenURL( "https://dl.dropboxusercontent.com/u/77744658/voxtext.txt" )
+		html:OpenURL( "https://pastebin.com/n26J9fE1" )
 	end)
 	
 	local commands = {
