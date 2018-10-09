@@ -1,1 +1,3 @@
 ## Place holder for .wav files that VOX will 'read' from.
+
+Place .wav files in sound/vox then upload to server to /gamemodes/YOURGAMEMODE/plugins
