@@ -7,17 +7,6 @@ Please note that currently, you must be an administrator to use /vox by default.
 
 ######
 
-yankee
-yards
-year
-yellow
-yes
-you
-your
-yourself
-zero
-zone
-zulu
 _comma
 _period
 a
@@ -62,7 +51,7 @@ armed
 armor
 armory
 arrest
-♥♥♥
+ass
 at
 atomic
 attention
@@ -191,6 +180,7 @@ egress
 eight
 eighteen
 eighty
+eighty.wav
 electric
 electromagnetic
 elevator
@@ -624,3 +614,16 @@ with
 without
 woop
 xeno
+yankee
+yards
+year
+yellow
+yes
+you
+your
+yourself
+yourself.wav
+zero
+zone
+zulu
+
